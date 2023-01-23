@@ -1,0 +1,65 @@
+.basket{
+  background: #FCEFE4;
+  padding: 200px 0 0 0;
+  &__card{
+    position: relative;
+    z-index: 11;
+    display: flex;
+    padding-bottom: 100px;
+    &-icon{
+      &__mob{
+        display:none;
+      }
+    }
+    &-info{
+      display: flex;
+      justify-content: space-between;
+      align-items:center;
+      padding-bottom:100px;
+    }
+    &-price{
+      display:flex;
+      justify-content: space-between;
+      &__btn{
+        display: flex;
+        align-items: center;
+        background: #FFF6F2;
+        border-radius: 39px;
+        font-family: 'Lato',sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        color: #000000;
+        padding: 18px 10px ;
+        border: none;
+        cursor: pointer;
+        transition: 2s;
+        &:hover{
+          background:orange;
+          border: 1px solid yellow;
+          color: black;
+          transition: 2s;
+        }
+      }
+    }
+    &-title{
+      font-family: 'Montserrat',sans-serif;
+      font-weight: 500;
+      font-size: 36px;
+      color: #272626;
+      margin-right: 200px;
+    }
+    &-line{
+      font-family: 'Lato',sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      text-decoration-line: line-through;
+      color: #8E8D6F;
+    }
+    &-subtitle{
+      font-family: 'Lato',sans-serif;
+      font-weight: 400;
+      font-size: 30px;
+      color: #7EA048;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.orders{
+  background: #FCEFE4;
+  &__title{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+    color: #272626;
+    padding-bottom: 36px;
+  }
+  &__row{
+    display: flex;
+    justify-content: space-between;
+    &-right{
+      display: flex;
+      flex-direction: column;
+    }
+    &-subtitle{
+      font-family: 'Lato',sans-serif;
+      font-weight: 400;
+      font-size: 24px;
+      color: #272626;
+    }
+    &-title{
+      font-family: 'Lato',sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      color: #272626;
+    }
+    &-green{
+      font-family: 'Lato',sans-serif;
+      font-weight: 700;
+      font-size: 24px;
+      color: #7EA048;
+    }
+  }
+  &__form{
+    display: flex;
+    flex-direction: column;
+  }
+  &__label{
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #272626;
+    }
+}

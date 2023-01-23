@@ -1,0 +1,114 @@
+.categories {
+  background: #FCEFE4;
+  padding: 30px 0 80px 0;
+
+  &__form {
+    width: 286px;
+    background: #FFF6F2;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 31px 17px;
+
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #272626;
+
+    &-title {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 24px;
+      color: #272626;
+    }
+  }
+
+  &__btn {
+    background: #D7537A;
+    border-radius: 21.0162px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFFFFF;
+    padding: 9px 19px;
+    border: none;
+    cursor: pointer;
+    margin: 40px 0;
+    transition: 2s;
+    &:hover {
+      background: orange;
+      border: 1px solid yellow;
+      color: black;
+      transition: 2s;
+    }
+  }
+  &__row{
+    display: flex;
+    column-gap: 20px;
+    &-right{
+      display: flex;
+      column-gap: 20px;
+      row-gap: 20px ;
+      flex-wrap: wrap;
+    }
+  }
+
+  &__card {
+    width:284px;
+    height: 427px;
+    background: #FDFDFD;
+    border-radius: 0 20px 20px 20px;
+    padding: 9px 9px 35px 9px;
+
+    &-subtitle {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      color: #272626;
+      margin-bottom: 50px;
+    }
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+
+    &-line {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      font-size: 13px;
+      text-decoration-line: line-through;
+      color: #8E8D6F;
+    }
+
+    &-title {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      color: #7EA048;
+      text-align: center;
+      margin-left: 30px;
+    }
+
+    &-btn {
+      background: #D7537A;
+      border-radius: 20px;
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      color: #FFFFFF;
+      border: none;
+      padding: 9px 34px;
+      margin-left: 13px;
+      cursor: pointer;
+      transition: 2s;
+
+      &:hover {
+        background: orange;
+        border: 1px solid yellow;
+        color: black;
+        transition: 2s;
+      }
+    }
+  }
+}

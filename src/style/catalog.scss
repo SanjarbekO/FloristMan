@@ -1,0 +1,36 @@
+.catalog{
+  background: #FCEFE4;
+  padding-bottom: 50px;
+  &__title{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #272626;
+    margin-bottom: 40px;
+  }
+  &__row{
+    display: flex;
+    column-gap: 20px;
+    &-mob{
+      display:none;
+    }
+    &-right{
+      display: flex;
+      flex-direction: column;
+      row-gap: 24px;
+    }
+    &-center{
+      display: flex;
+      flex-direction: column;
+      row-gap: 30px;
+    }
+    &-left{
+      display: flex;
+      flex-direction: column;
+      row-gap: 24px;
+    }
+    &-card{
+
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.map{
+  padding: 200px 0 80px 0;
+  background: #FCEFE4;
+  &__row{
+    display: flex;
+    column-gap:44px;
+    position: relative;
+    z-index: 11;
+    &-title{
+      font-family: 'Montserrat',sans-serif;
+      font-weight: 700;
+      font-size: 36px;
+      color: #272626;
+      margin-bottom: 16px;
+    }
+    &-subtitle{
+      display: flex;
+      align-items: center;
+      column-gap: 16px;
+      font-family: 'Lato',sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+      color: #272626;
+      margin-bottom: 12px;
+    }
+  }
+}

@@ -1,0 +1,65 @@
+.decor{
+  background: #FCEFE4;
+  padding-bottom: 102px;
+  &__title{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+    color: #272626;
+  }
+  &__info{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  &__subtitle{
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration-line: underline;
+    color: #272626;
+    margin: 38px 0 36px;
+    &:hover{
+      font-family: 'Lato',sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      color: #8E8D6F;
+      text-decoration-line: none;
+    }
+  }
+  &__form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap:20px;
+    &-input{
+      width: 100%;
+      padding: 24px 500px 24px 45px;
+      background: #FFF8F5;
+      border-radius: 45px;
+      border: none;
+    }
+  }
+  &__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #D7537A;
+    border-radius: 37px;
+    font-family: 'Lato',sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+    padding: 23px 46px;
+    border: none;
+    margin: 73px auto 0;
+    transition: 2s;
+    &:hover{
+      background:orange;
+      border: 1px solid yellow;
+      color: black;
+      transition: 2s;
+    }
+  }
+}

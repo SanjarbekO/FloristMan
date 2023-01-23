@@ -1,0 +1,16 @@
+.address{
+  padding: 18px 0 81px 0;
+  background: #FCEFE4;
+  &__menu{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin-bottom: 15px;
+    &-link{
+      font-family: 'Lato',sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+      color: #000000;
+    }
+  }
+}
